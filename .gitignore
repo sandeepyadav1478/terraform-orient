@@ -1,0 +1,10 @@
+# ignore .git directory
+*.git
+
+# ignore terraform plugins
+.terraform
+
+# ignore terraform current server confs.
+.terraform.lock.hcl
+terraform.tfstate
+terraform.tfstate.backup
